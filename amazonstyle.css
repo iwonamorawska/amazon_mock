@@ -1,0 +1,89 @@
+.container {
+    display: grid;
+    grid-template-columns: 0.9fr 1.4fr 0.7fr;
+    grid-template-rows: 0.5fr 1.7fr 0.7fr 1.1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      ". login ."
+      ". new .";
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  .login {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .9fr 0.5fr 0.8fr 0.5fr 1fr 1fr 1.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "."
+      "."
+      "."
+      "."
+      "."
+      "."
+      ".";
+    grid-area: login;
+    border: solid rgb(148, 146, 146) 1px;
+  }
+  
+  .new {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.8fr 1.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "."
+      ".";
+    grid-area: new;
+  }
+  .email p{
+    border: white solid 1px;
+    margin-left: 2vw;
+  }
+  .box1 p{
+    border:gray solid 1px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  .pass p{
+    border: white solid 1px;
+    margin-left: 2vw;
+  }
+  .box2 p{
+    border: gray solid 1px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  .cont p{
+    border:solid gray 1px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: orange;
+    text-align: center;
+    padding: 3px;
+  }
+  .help p{
+    color: blue;
+    border: white solid 1px;
+    margin-left: 2vw;
+  }
+  .quest p{
+    border: white solid 1px;
+    margin-left: 2vw;
+    text-align: center;
+  }
+  .create p{
+    border:solid gray 1px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: rgb(189, 185, 185);
+    text-align: center;
+    padding:3px
+  } 
+  .pass span{
+    color: blue;
+  }
+  
